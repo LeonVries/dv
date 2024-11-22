@@ -614,12 +614,14 @@ nav.navbar .navbar-nav .nav-link.active {
   }
 
   .skill-carousel .item h5 {
-    font-size: 18px;
-    color: #E0E0E0;
-    font-weight: 500;
-    margin: 10px 0 0 0;
-    text-align: center;
+    font-size: 16px; /* Schriftgröße anpassen */
+    line-height: 1.5; /* Angenehmer Zeilenabstand */
+    text-align: center; /* Zentriere den Text */
+    max-width: 200px; /* Begrenze die Breite */
+    margin: 0 auto; /* Zentriere innerhalb des Containers */
+    white-space: normal; /* Erlaube Umbrüche */
   }
+  
 
   .skill-carousel .item .expanded-overlay {
     position: absolute;
