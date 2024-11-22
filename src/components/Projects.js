@@ -18,9 +18,9 @@ export const Projects = () => {
     {
       title: "Competitive Market Analysis",
       description: [
-        "Analyzed market trends to increase market share by 20%",
-        "Improved customer acquisition rates by 15%",
-        "Enabled strategic decision-making through data insights"
+        "Analyzed market trends to drive growth",
+        "Optimized customer acquisition strategies",
+        "Enabled informed strategic decision-making"
       ],
       imgUrl: projImg1,
       categories: ["Strategy"],
@@ -28,9 +28,9 @@ export const Projects = () => {
     {
       title: "Optimization and Digitalization",
       description: [
-        "Reduced operational costs by 25%",
-        "Increased process efficiency by 30%",
-        "Streamlined operations using advanced data analytics"
+        "Reduced operational complexity through process improvements",
+        "Enhanced efficiency in workflows",
+        "Streamlined operations using advanced analytical tools"
       ],
       imgUrl: projImg2,
       categories: ["Operations", "Digitalization"],
@@ -38,9 +38,9 @@ export const Projects = () => {
     {
       title: "ERP-Klickbot",
       description: [
-        "Automated ERP processes, reducing manual data entry by 40%",
-        "Enhanced data accuracy by 35%",
-        "Empowered teams to focus on strategic initiatives"
+        "Automated ERP processes to minimize manual tasks",
+        "Improved data accuracy and reliability",
+        "Empowered teams to focus on strategic priorities"
       ],
       imgUrl: projImg3,
       categories: ["Operations", "Digitalization"],
@@ -48,19 +48,19 @@ export const Projects = () => {
     {
       title: "Supply Chain Optimization",
       description: [
-        "Decreased lead times by 20%",
-        "Reduced inventory holding costs by 15%",
-        "Integrated real-time tracking systems for efficiency"
+        "Improved supply chain processes for better efficiency",
+        "Optimized inventory management and planning",
+        "Implemented real-time tracking systems"
       ],
       imgUrl: projImg4,
       categories: ["Operations", "Digitalization"],
     },
     {
-      title: "Implementation of OKR methodology",
+      title: "Implementation of OKR Methodology",
       description: [
-        "Implemented OKR framework to align team objectives",
-        "Increased team productivity by 18%",
-        "Enhanced goal tracking and performance measurement"
+        "Introduced OKR framework to align team goals",
+        "Enhanced team performance through clear objectives",
+        "Improved tracking and measurement of key results"
       ],
       imgUrl: projImg5,
       categories: ["Strategy"],
@@ -68,9 +68,9 @@ export const Projects = () => {
     {
       title: "Data Analytics Platform",
       description: [
-        "Improved data processing speeds by 30%",
-        "Enhanced decision-making capabilities by 25%",
-        "Developed scalable data infrastructure"
+        "Optimized data processing and analysis",
+        "Supported data-driven decision-making",
+        "Developed scalable infrastructure for analytics"
       ],
       imgUrl: projImg6,
       categories: ["Operations", "Digitalization"],
@@ -78,13 +78,13 @@ export const Projects = () => {
     {
       title: "Transforming Business with Large Data Analytics",
       description: [
-        "Leveraged big data to uncover business insights",
-        "Increased revenue by 22% through data-driven strategies",
-        "Optimized marketing campaigns with predictive analytics"
+        "Leveraged big data for business insights",
+        "Enabled data-driven strategies to optimize performance",
+        "Improved campaigns through predictive analytics"
       ],
       imgUrl: projImg7,
       categories: ["Strategy"],
-    },
+    },      
   ];
 
   // Funktion zur Filterung der Projekte basierend auf der Kategorie
