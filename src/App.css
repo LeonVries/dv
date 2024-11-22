@@ -476,11 +476,13 @@ nav.navbar .navbar-nav .nav-link.active {
 }
 
 .skill-carousel .item img {
-  max-width: 100%; /* Logo passt sich Container an */
-  max-height: 70%; /* Höhe des Logos relativ zum Container */
-  margin: auto;
+  max-width: 150px; /* Einheitliche Breite für alle Bilder */
+  max-height: 150px; /* Einheitliche Höhe für alle Bilder */
+  margin: 0 auto;
   display: block;
+  object-fit: contain; /* Skaliert Bilder proportional */
 }
+
 
 .skill-carousel .item:hover img,
 .skill-carousel .item:active img {
@@ -488,11 +490,15 @@ nav.navbar .navbar-nav .nav-link.active {
 }
 
 .skill-carousel .item h5 {
-  margin-top: auto; /* Text am unteren Ende des Containers */
-  font-size: 18px; /* Schriftgröße */
-  color: #E0E0E0; /* Dezentes Grau */
-  font-weight: 500;
+  font-size: 16px; /* Schriftgröße anpassen */
+  line-height: 1.5; /* Angenehmer Zeilenabstand */
+  text-align: center; /* Zentriere den Text */
+  max-width: 200px; /* Begrenze die Breite */
+  margin: 0 auto; /* Zentriere innerhalb des Containers */
+  margin-top: 10px;
+  white-space: normal; /* Erlaube Umbrüche */
 }
+
 
 .skill-carousel .item .expanded-overlay {
   position: absolute;
